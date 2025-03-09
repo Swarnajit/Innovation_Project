@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-08T15:35:39 IST" name="Surefire suite" finished-at="2025-03-08T15:35:57 IST" duration-ms="18623">
+    <groups>
+    </groups>
+    <test started-at="2025-03-08T15:35:39 IST" name="Surefire test" finished-at="2025-03-08T15:35:57 IST" duration-ms="18623">
+      <class name="com.naukriUpdate.Login">
+        <test-method is-config="true" signature="naukriLogin(org.testng.ITestResult)[pri:0, instance:com.naukriUpdate.Login@49c386c8]" started-at="2025-03-08T15:35:39 IST" name="naukriLogin" finished-at="2025-03-08T15:35:44 IST" duration-ms="5811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=Login.loginToNaukri()[pri:0, instance:com.naukriUpdate.Login@49c386c8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naukriLogin -->
+        <test-method signature="loginToNaukri()[pri:0, instance:com.naukriUpdate.Login@49c386c8]" started-at="2025-03-08T15:35:44 IST" name="loginToNaukri" finished-at="2025-03-08T15:35:54 IST" duration-ms="9776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToNaukri -->
+        <test-method is-config="true" signature="naukriLogout()[pri:0, instance:com.naukriUpdate.Login@49c386c8]" started-at="2025-03-08T15:35:55 IST" name="naukriLogout" finished-at="2025-03-08T15:35:57 IST" duration-ms="2112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naukriLogout -->
+      </class> <!-- com.naukriUpdate.Login -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
